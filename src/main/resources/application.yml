@@ -1,0 +1,7 @@
+server:
+  http2:
+    enabled: true  ssl:    enabled: true
+    key-store-type: pkcs12
+    key-store: file:C:/Users/kwong/Documents/certs/selfsigned/ca/my-service.p12
+    key-store-password: abcd1234
+    key-alias: my-cert
