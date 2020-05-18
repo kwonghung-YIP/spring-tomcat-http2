@@ -5,3 +5,6 @@ server:
     key-store: file:C:/Users/kwong/Documents/certs/selfsigned/ca/my-service.p12
     key-store-password: abcd1234
     key-alias: my-cert
+  tomcat:
+    basedir: C:\Users\kwong\Documents\medium-projects\sts-wrksp\tomcat    accesslog:      enabled: true
+      directory: logs
