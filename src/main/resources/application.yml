@@ -1,3 +1,4 @@
+spring:  profiles: local
 server:
   http2:
     enabled: true  ssl:    enabled: true
@@ -7,4 +8,4 @@ server:
     key-alias: my-cert
   tomcat:
     basedir: C:\Users\kwong\Documents\medium-projects\sts-wrksp\tomcat    accesslog:      enabled: true
-      directory: logs
+      directory: logs---spring:  profiles: k8sserver:  http2:    enabled: true  tomcat:    basedir: /usr/local/springboot    accesslog:      enabled: true             
